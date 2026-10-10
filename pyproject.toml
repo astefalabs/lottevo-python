@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lottevo"
+version = "0.1.0"
+description = "A thin Python client for the Lottevo lottery data API."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Lottevo", email = "contact@lottevo.com" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Typing :: Typed",
+]
+keywords = ["lottevo", "lottery", "results", "api", "sdk"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://lottevo.com/docs/sdks"
+Source = "https://github.com/astefalabs/lottevo-python"
+Issues = "https://github.com/astefalabs/lottevo-python/issues"
+
+[tool.setuptools]
+packages = ["lottevo"]
+
+[tool.setuptools.package-data]
+lottevo = ["py.typed"]
