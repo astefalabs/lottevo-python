@@ -11,7 +11,7 @@ from urllib.parse import urlencode
 
 from ._resources import Resources
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 DEFAULT_BASE_URL = "https://api.lottevo.com/v1"
 
